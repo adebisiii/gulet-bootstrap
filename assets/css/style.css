@@ -5,6 +5,7 @@
     --sm-font: 'Quicksand', sans-serif;
     --blue: #327596;
     --purple: #697BCE;
+    --gray: #5d5d5d;
 }
 
 
@@ -14,10 +15,29 @@ body {
 }
 
 
+/* Common*/
+
+.blue-gray-line span {
+    width: 120px;
+    height: 2px;
+    background-color: #e1e1e1;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.blue-gray-line span em {
+    width: 60px;
+    height: 2px;
+    background-color: #327497;
+    display: block;
+    margin: auto;
+}
+
+
 /* Navbar  */
 .mega-menu {
-    width: 400px;
-    overflow: hidden;
+    width: 500px;
     padding: 10px;
 }
 
@@ -43,6 +63,8 @@ body {
 
 .navbar ul li a {
     font-size: 13px;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
 }
 
 .dropdown-menu {
@@ -56,36 +78,48 @@ body {
 
 .dropdown-menu p {
     font-size: 14px;
+    color: var(--blue) !important;
 }
 
 
 hr.divider {
     margin: 0px;
     border-width: 1px;
+    color: var(--blue);
 }
 
 .superNav {
-    font-size:13px;
-  }
-  
-  #navbarBorder{
-    border-color: #327497!important;
-    border-width: 2px !important;
-  }
-  #superNavBorder a{
-    color: #6c757d;
+    font-size: 13px;
+}
+
+.superNav a {
+    color: #6c757d !important;
     text-decoration: none;
     font-weight: 700;
-  }
-  .soft-blue{
-    color: #6699cc !important;
-  }
-  
-  @media screen and (max-width:540px){
+}
+
+.superNav a:hover {
+    color: #0060df !important;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#navbarBorder {
+    border-color: #327497 !important;
+    border-width: 2px !important;
+}
+
+
+@media screen and (max-width:540px) {
     .centerOnMobile {
-      text-align:center
+        text-align: center
     }
-  }
+
+    .mega-menu {
+        width: auto;
+        padding: 10px;
+    }
+}
 
 
 
@@ -220,17 +254,14 @@ hr.divider {
 }
 
 /* Slogan Area */
-.slogan h3 {
-    font-size: 1rem;
+.slogan h3,
+.super-discount h3 {
+    font-size: 2rem;
     font-weight: 500;
     margin-bottom: 4px;
+    color: var(--gray);
 }
 
-.slogan p {
-    font-size: 0.75rem;
-    font-weight: 300;
-    margin: 0;
-}
 
 /*Owl Carousel*/
 .card-img-top {
@@ -240,24 +271,91 @@ hr.divider {
 }
 
 
-/* Discount Yacht Section */
+/* Discount Yacht Section and Yacht Card*/
 
-.yacht-detail-container, .tour-detail-container, .blog-detail-container {
+
+.yacht-card {
+    margin: auto;
+    box-shadow: 0px 12px 20px -10px rgba(13, 28, 39, 0.6);
+    background: #fff;
+    border-radius: 12px;
+    position: relative;
+}
+
+.yacht-card__name {
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--blue);
+    margin: 6px;
+}
+
+.yacht-card-inf {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.yacht-card-inf__item {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    min-width: 90px;
+}
+
+.yacht-card-btn {
+    background-color: var(--blue);
+    color: white;
+}
+
+.yacht-card-btn:hover{
+    background-color: white;
+    color: var(--blue);
+    border-color: var(--blue);
+}
+
+.yacht-card hr{
+    margin: 0;
+}
+
+.yacht-card-inf__txt {
+    font-weight: 500;
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+.yacht-card-price{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.yacht-price-txt {
+   font-size: 13px;
+}
+
+.tour-detail-container,
+.blog-detail-container {
     padding: 10px;
 }
 
-.yacht-name, .tour-name{
+.yacht-name,
+.tour-name {
     margin: 0;
     padding: 0;
 
 }
 
-.yacht-detail-container hr, .tour-detail-container hr, .blog-detail-container hr{
+.tour-detail-container hr,
+.blog-detail-container hr {
     padding: 0;
     margin-top: 6px;
 }
 
-.yacht-icon, .yacht-info{
+.yacht-icon,
+.yacht-info {
     color: gray;
     font-size: 0.75rem;
 }
@@ -279,10 +377,10 @@ hr.divider {
 
 
 /* Last Blog Article */
-.last-blog-article{
+.last-blog-article {
     background-color: #F3F4FA;
 }
 
-.blog-detail-container p{
+.blog-detail-container p {
     font-size: 12px;
 }
