@@ -6,6 +6,7 @@
     --blue: #327596;
     --purple: #697BCE;
     --gray: #5d5d5d;
+    --dark-gray: #282D33;
 }
 
 
@@ -390,4 +391,25 @@ hr.divider {
 
 .blog-detail-container p {
     font-size: 12px;
+}
+
+/*Footer*/
+footer {
+    background-color: var(--dark-gray);
+}
+
+.footer-title {
+    font-size: 18px;
+    list-style-type: none;
+    margin-bottom: 15px;
+    padding: 5px 0 5px 10px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+    letter-spacing: 1px;
+    border-left: 3px solid #327497;
+}
+
+.footer a {
+    color: #BDBDBD;
+    text-decoration: none;
 }
