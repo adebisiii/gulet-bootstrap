@@ -131,7 +131,7 @@ hr.divider {
 }
 
 .carousel-item img {
-    height: 40vh;
+    height: 45vh;
     object-fit: cover;
 }
 
@@ -188,7 +188,7 @@ hr.divider {
 
 @media(max-width: 768px) {
     .overlay {
-        top: 10rem;
+        top: 4rem;
         left: 0;
     }
 
@@ -221,7 +221,7 @@ hr.divider {
 
 @media(max-width: 430px) {
     .overlay {
-        top: 6rem;
+        top: 4rem;
         left: 0;
     }
 
@@ -239,7 +239,7 @@ hr.divider {
 
 @media(max-width: 375px) {
     .overlay {
-        top: 7rem;
+        top: 2.5rem;
         left: 0;
     }
 
