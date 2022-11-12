@@ -15,9 +15,7 @@ body {
     background-color: #FBFCFE;
 }
 
-
 /* Common*/
-
 .blue-gray-line span {
     width: 120px;
     height: 2px;
@@ -34,7 +32,6 @@ body {
     display: block;
     margin: auto;
 }
-
 
 /* Navbar  */
 .mega-menu {
@@ -291,15 +288,16 @@ hr.divider {
 
 .yacht-card-inf {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     flex-wrap: wrap;
     align-items: flex-start;
+    font-size: 14px;
 }
 
 .yacht-card-inf__item {
     margin-top: 6px;
     margin-bottom: 6px;
-    min-width: 90px;
+    margin-left: 6px;
 }
 
 .yacht-card-btn {
