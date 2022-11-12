@@ -39,6 +39,11 @@ body a{
 }
 
 /* Navbar  */
+
+.navbar {
+    border-bottom: 2px solid var(--blue);
+}
+
 .mega-menu {
     width: 500px;
     padding: 10px;
