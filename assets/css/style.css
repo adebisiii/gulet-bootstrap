@@ -2,7 +2,6 @@
 
 :root {
     --lg-font: 'Open Sans', sans-serif;
-    --sm-font: 'Open Sans', sans-serif;
     --blue: #327596;
     --purple: #697BCE;
     --gray: #5d5d5d;
@@ -13,6 +12,12 @@
 body {
     font-family: var(--lg-font);
     background-color: #FBFCFE;
+}
+
+body a{
+    color: var(--blue);
+    font-size: 13px;
+    text-decoration: none;
 }
 
 /* Common*/
@@ -60,7 +65,7 @@ body {
 }
 
 .navbar ul li a {
-    font-size: 13px;
+    font-size: 14px;
     margin-top: .5rem;
     margin-bottom: .5rem;
 }
@@ -279,11 +284,15 @@ hr.divider {
     position: relative;
 }
 
+.yacht-card hr{
+    color: #d4d3d3 !important;
+}
+
 .yacht-card__name {
-    font-weight: 700;
-    font-size: 16px;
+    font-weight: 500;
+    font-size: 15px;
     color: var(--blue);
-    margin: 6px;
+    margin: 12px 0px 12px 6px;
 }
 
 .yacht-card-inf {
@@ -291,12 +300,12 @@ hr.divider {
     justify-content: start;
     flex-wrap: wrap;
     align-items: flex-start;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .yacht-card-inf__item {
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 12px;
+    margin-bottom: 12px;
     margin-left: 6px;
 }
 
@@ -323,15 +332,18 @@ hr.divider {
 
 .yacht-card-price {
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
     align-items: flex-start;
     margin-top: 12px;
     margin-bottom: 12px;
+    margin-left: 6px;
 }
 
 .yacht-price-txt {
     font-size: 13px;
+}
+.yacht-card strong{
+    color: var(--blue);
 }
 
 .tour-detail-container,
@@ -388,7 +400,7 @@ hr.divider {
 }
 
 .blog-detail-container p {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 /*Header and Footer Social Button*/
@@ -544,6 +556,7 @@ ul.social-network-footer a {
 /*Footer*/
 footer {
     background-color: var(--dark-gray);
+    font-size: 14px;
 }
 
 .footer .btn{
@@ -559,6 +572,10 @@ footer {
     color: #BDBDBD;
     letter-spacing: 1px;
     border-left: 3px solid #327497;
+}
+
+.footer-title p{
+    font-size: 12px;
 }
 
 .footer a {
