@@ -146,7 +146,7 @@ hr.divider {
 
 @media screen and (max-width:540px) {
     .centerOnMobile {
-        text-align: center
+        text-align: center !important;
     }
 
     .mega-menu {
@@ -228,10 +228,13 @@ h2.blog-content {
     position: relative;
     padding-top: 10px;
     float: left;
-  
   }
 
 
+  /*Page Navigation*/
+  ul.pagination li a{
+    color: var(--blue);
+  }
 /*Read More Toggle*/
 .read-more-state {
     display: none;
@@ -547,9 +550,10 @@ h2.blog-content {
 ul.social-network {
     list-style: none;
     display: inline;
-    float: right;
+    float: left;
     margin-top: 0;
     margin-bottom: 0;
+    padding-left: 0px;
 }
 
 ul.social-network li {
