@@ -169,12 +169,12 @@ h2.blog-content {
 }
 
 .sidebar-area {
-    background-color:#FAF7F8;
+    background-color: #FAF7F8;
     padding: 6px 6px 0px 12px;
     border-radius: 10px;
 }
 
-.sidebar-title{
+.sidebar-title {
     font-size: 22px;
 }
 
@@ -191,6 +191,46 @@ h2.blog-content {
     line-height: 1.8em;
     font-size: 14px;
 }
+
+.featured-yacht-title {
+    position: absolute;
+    left: 12px;
+    top: 6px;
+    background-color: #2B2937;
+    color: #FFF;
+    border-radius: 4px;
+    opacity: 0.75;
+    font-size: 14px;
+    padding: 9px 13px;
+}
+
+.sidebar-area p {
+    position: absolute;
+    left: 12px;
+    top: 45px;
+    background-color: #2B2937;
+    color: #FFF;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    opacity: 0.75;
+    font-size: 14px;
+    font-weight: 600;
+   
+    padding: 9px 13px;
+}
+
+.image-parent {
+    max-width: 40%;
+  }
+
+  p.latest-yachts-info {
+    margin-left: 13px;
+    position: relative;
+    padding-top: 10px;
+    float: left;
+  
+  }
+
 
 /*Read More Toggle*/
 .read-more-state {
