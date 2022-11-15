@@ -578,10 +578,53 @@ ul.pagination li a {
     border-top-right-radius: 3px;
 }
 
-.panel-body{
+.panel-default {
+    border-color: #ddd;
+}
+
+.panel-default>.panel-heading {
+    color: var(--blue);
+    background-color: #f5f5f5;
+    border-color: #ddd;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-bottom-color: transparent;
+}
+
+.panel-body {
     padding: 15px;
 }
 
+#rate-heading {
+    font-size: 14px;
+    max-width: 100%;
+    border-bottom: 1px solid #CCC;
+    font-weight: 600;
+}
+
+.price {
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCC;
+    max-width: 100%;
+}
+
+.yacht-sidebar-list {
+    color: var(--blue);
+    padding: 0;
+}
+
+.yacht-sidebar-list li {
+    list-style-type: square;
+    list-style-position: inside;
+    margin-top: 5px;
+}
+
+.yacht-sidebar-list span{
+    color: #373d3f;
+    font-size: 14px;
+}
 
 /*Section Private Info Home*/
 .home-private-info {
