@@ -592,7 +592,18 @@ ul.pagination li a {
 }
 
 .panel-body {
-    padding: 15px;
+    padding: 15px 15px 15px 15px;
+}
+
+.panel-spec-title{
+    color: var(--blue);
+    font-size: 14px;
+    margin: 0;
+}
+
+.panel-spec-content{
+    font-size: 14px;
+    
 }
 
 #rate-heading {
