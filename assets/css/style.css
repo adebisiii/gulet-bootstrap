@@ -637,6 +637,11 @@ ul.pagination li a {
     font-size: 14px;
 }
 
+/*Tab Style*/
+.nav-tabs a{
+    color: var(--blue);
+}
+
 /*Section Private Info Home*/
 .home-private-info {
     background-color: #d9dee1;
