@@ -11,7 +11,6 @@
 
 body {
     font-family: var(--lg-font);
-    background-color: #FBFCFE;
 }
 
 body a {
@@ -169,7 +168,7 @@ h2.blog-content {
 }
 
 .sidebar-area {
-    background-color: #FAF7F8;
+    background-color: #f5f5f5;
     padding: 6px 6px 0px 12px;
     border-radius: 10px;
 }
@@ -524,20 +523,6 @@ ul.pagination li a {
     font-size: 0.75rem;
 }
 
-.new-price {
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: green;
-    text-align: end;
-}
-
-.old-price {
-    font-size: 0.75rem;
-    font-weight: bold;
-    color: grey;
-    text-decoration: line-through;
-    text-align: right;
-}
 
 /*Yacht Details*/
 .yacht-title-below {
@@ -545,8 +530,30 @@ ul.pagination li a {
     margin-left: 8px;
 }
 
-/*Yacht Detail Sidebar*/
+.yacht-item {
+    display: flex;
+    font-size: 14px;
+}
+.yacht-item__icon {
+    display: flex;
+    align-items: center;
+    color: var(--blue);
+}
+.yacht-item__description {
+    padding-left: 20px;
+}
+.yacht-item__description--title {
+    font-weight: 500;
+}
+.yacht-item__description span {
+    color: gray;
+}
+.cabin-configiration {
+    font-size: 14px;
+}
 
+
+/*Yacht Detail Sidebar*/
 .panel {
     margin-bottom: 20px;
     background-color: #fff;
