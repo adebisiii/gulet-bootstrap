@@ -552,6 +552,11 @@ ul.pagination li a {
     font-size: 14px;
 }
 
+#accordion-yacht button{
+    background-color: #f5f5f5;
+    color: var(--blue);
+}
+
 
 /*Yacht Detail Sidebar*/
 .panel {
