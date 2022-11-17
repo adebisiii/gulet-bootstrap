@@ -534,29 +534,46 @@ ul.pagination li a {
     display: flex;
     font-size: 14px;
 }
+
 .yacht-item__icon {
     display: flex;
     align-items: center;
     color: var(--blue);
 }
+
 .yacht-item__description {
     padding-left: 20px;
 }
+
 .yacht-item__description--title {
     font-weight: 500;
 }
+
 .yacht-item__description span {
     color: gray;
 }
+
 .cabin-configiration {
     font-size: 14px;
 }
 
-#accordion-yacht button{
-    background-color: #f5f5f5;
+#yacht-card-header {
     color: var(--blue);
 }
 
+#yacht-card-header-contact {
+    color: #fff;
+    background-color: var(--blue);
+}
+
+#yacht-card-body ul li {
+    line-height: 2em;
+    border-bottom: 1px dashed #d4d4d4;
+}
+
+#yacht-card-body {
+    font-size: 14px;
+}
 
 /*Yacht Detail Sidebar*/
 .panel {
@@ -607,15 +624,15 @@ ul.pagination li a {
     padding: 15px 15px 15px 15px;
 }
 
-.panel-spec-title{
+.panel-spec-title {
     color: var(--blue);
     font-size: 14px;
     margin: 0;
 }
 
-.panel-spec-content{
+.panel-spec-content {
     font-size: 14px;
-    
+
 }
 
 #rate-heading {
@@ -644,13 +661,13 @@ ul.pagination li a {
     margin-top: 5px;
 }
 
-.yacht-sidebar-list span{
+.yacht-sidebar-list span {
     color: #373d3f;
     font-size: 14px;
 }
 
 /*Tab Style*/
-.nav-tabs a{
+.nav-tabs a {
     color: var(--blue);
 }
 
