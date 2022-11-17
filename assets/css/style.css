@@ -533,6 +533,7 @@ ul.pagination li a {
 .yacht-item {
     display: flex;
     font-size: 14px;
+    padding-top: 24px;
 }
 
 .yacht-item__icon {
